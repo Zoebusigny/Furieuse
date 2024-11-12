@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Enchanted Land";
+  src: url("../font/EnchantedLand.woff2") format("woff2");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Katari, Papyrus, serif;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+a {
+  text-decoration: none;
+}
