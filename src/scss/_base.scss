@@ -15,6 +15,7 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img,
@@ -34,6 +35,23 @@ video {
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
 
-a {
-  text-decoration: none;
+.furieuse-footer {
+  color: #fff;
+  font-family: "Enchanted Land";
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  color: #fff;
+  font-family: "Katari";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 675px;
+  height: 205px;
+  flex-shrink: 0;
 }
