@@ -1,0 +1,64 @@
+// #presentation-perso {
+//   display: flex;
+//   overflow: hidden;
+// }
+
+section {
+  width: 100vw;
+  height: 874px;
+}
+
+// #presentation-perso section:nth-child(1) {
+//   background-image: url("../img/présentation-ysa.jpg");
+//   background-position: center;
+//   background-size: cover;
+// }
+
+// #presentation-perso section:nth-child(2) {
+
+// }
+
+// #presentation-perso section:nth-child(3) {
+//   background-image: url("../img/présentation-baron.jpg");
+//   background-position: center;
+//   background-size: cover;
+// }
+
+// #presentation-perso section:nth-child(4) {
+
+// }
+#horizontal .section {
+  height: 100vh;
+  width: 110vw;
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+}
+
+#horizontal {
+  display: flex;
+  overflow-x: hidden;
+}
+
+#horizontal .section:nth-child(1) {
+  background-image: url("../img/présentation-ysa.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#horizontal .section:nth-child(2) {
+  background-image: url("../img/présentation arthur.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#horizontal .section:nth-child(3) {
+  background-image: url("../img/présentation-baron.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#horizontal .section:nth-child(4) {
+  background-image: url("../img/présentation-epee.jpg");
+  background-position: center;
+}
