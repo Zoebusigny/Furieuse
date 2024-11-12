@@ -1,12 +1,6 @@
 // #presentation-perso {
 //   display: flex;
 //   overflow: hidden;
-// }
-
-section {
-  width: 100vw;
-  height: 874px;
-}
 
 // #presentation-perso section:nth-child(1) {
 //   background-image: url("../img/présentation-ysa.jpg");
@@ -23,13 +17,15 @@ section {
 //   background-position: center;
 //   background-size: cover;
 // }
-
+.section {
+  max-width: auto;
+}
 // #presentation-perso section:nth-child(4) {
 
 // }
 #horizontal .section {
   height: 100vh;
-  width: 110vw;
+  width: 100vw;
   display: grid;
   flex-shrink: 0;
   place-items: center;
@@ -37,6 +33,7 @@ section {
 
 #horizontal {
   display: flex;
+
   overflow-x: hidden;
 }
 
@@ -61,4 +58,5 @@ section {
 #horizontal .section:nth-child(4) {
   background-image: url("../img/présentation-epee.jpg");
   background-position: center;
+  background-size: cover;
 }
