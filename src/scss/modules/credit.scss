@@ -1,9 +1,9 @@
 .credit {
   background: var(--red, #b00042);
   display: flex;
-  justify-content: space-around;
-  height: 142px;
+  padding: 23px;
   margin-top: 170px;
+  justify-content: center;
 }
 
 .credit-logo {
@@ -37,6 +37,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-end;
+  padding-left: 140px;
 }
 .credit-text {
   display: flex;
@@ -50,15 +51,15 @@
 .credit-reseaux {
   display: flex;
   flex-direction: row;
-  gap: 10px;
-  justify-content: flex-end;
+  gap: 45px;
+  justify-content: center;
 }
 
-.credit-reseaux img {
+.img-reseaux {
   height: 35px;
-  gap: 20px;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
