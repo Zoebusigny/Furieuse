@@ -44,7 +44,7 @@ video {
   line-height: normal;
 }
 
-p {
+.text {
   color: #fff;
   font-family: "Katari";
   font-size: 24px;
@@ -54,4 +54,6 @@ p {
   width: 675px;
   height: 205px;
   flex-shrink: 0;
+  display: flex;
+  flex-wrap: wrap;
 }

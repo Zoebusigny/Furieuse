@@ -6,4 +6,6 @@ footer {
   width: 395px;
   height: 497px;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: row-reverse;
 }

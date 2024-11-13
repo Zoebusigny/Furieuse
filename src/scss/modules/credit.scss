@@ -1,0 +1,64 @@
+.credit {
+  background: var(--red, #b00042);
+  display: flex;
+  justify-content: space-around;
+  height: 142px;
+  margin-top: 170px;
+}
+
+.credit-logo {
+  width: 440px;
+  height: 56px;
+}
+
+.credit-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.credit-liens {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 10px 25px;
+  flex: 1 0 0;
+  flex-wrap: wrap;
+  color: #fff;
+  font-family: " Katari";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.credit-container-reseaux {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.credit-text {
+  display: flex;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Katari;
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 200px;
+}
+
+.credit-reseaux {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.credit-reseaux img {
+  height: 35px;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}

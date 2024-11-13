@@ -15,6 +15,7 @@
   font-family: "Enchanted Land";
   font-size: 48px;
   text-decoration: none;
+  margin-top: 70px;
 }
 
 .button-footer-2 {
@@ -28,4 +29,11 @@
   border: none;
   padding: 10 20px;
   background: #b00042;
+  margin-top: 70px;
+}
+
+.button-achat {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
 }
