@@ -1,9 +1,34 @@
-// .maxine {
-// }
+.maxine {
+  position: relative;
+  margin-bottom: 50%;
+}
 
-// .maxine-principal {
-//   margin: 0 auto;
-// }
+.maxine-principal {
+  width: 1067px;
+  height: 1467px;
+  margin: 25% auto;
+}
+
+.maxine-bulle-1 {
+  width: 344px;
+  height: 321px;
+  position: absolute;
+  top: 18%;
+  left: 5%;
+}
+
+.maxine-bulle-2 {
+  width: 742px;
+  height: 399px;
+  position: absolute;
+  left: 25%;
+  top: 38%;
+}
+
+.maxine-sketch {
+  width: 1440px;
+  height: 1735px;
+}
 
 // .maxine-bulle-1 {
 //   width: 344px;
