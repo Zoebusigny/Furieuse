@@ -104,28 +104,26 @@ gsap
   );
 
 // //escape
-
-gsap.to(".escape-bulle-1", {
-  opacity: 1,
-  x: "20%",
-  scrollTrigger: {
-    trigger: ".escape-bulle-1",
-    start: " bottom bottom ",
-    end: "top top",
-    scrub: 0.5,
-  },
-});
-
-// gsap.to(".escape-bulle-1", {
-//   opacity: 1,
-
-//   scrollTrigger: {
-//     trigger: ".escape-bulle-1",
-//     start: " center center  ",
-//     end: "top center",
-//     scrub: 0.5,
-//   },
-// });
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".escape-bulle-1",
+      start: " bottom bottom ",
+      //   end: "top center",
+      scrub: 0.5,
+    },
+  })
+  .to(".escape-bulle-1", {
+    opacity: 1,
+    x: "15%",
+  })
+  .to(
+    ".escape-bulle-1",
+    {
+      opacity: 01,
+    },
+    "+=0.5"
+  );
 
 gsap.to(".escape-bulle-2", {
   opacity: 1,
