@@ -3,6 +3,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+//Scroll horizontal
+
 const contents = gsap.utils.toArray("#horizontal .section");
 
 gsap.to(contents, {
@@ -17,52 +19,91 @@ gsap.to(contents, {
 
 //family-paint
 
-gsap.to(".family-paint-bulle-1", {
-  opacity: 1,
-  x: "15%",
-  scrollTrigger: {
-    trigger: ".family-paint-bulle-1",
-    start: " bottom bottom ",
-    end: "top top",
-    scrub: 0.5,
-  },
-});
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".family-paint-bulle-1",
+      start: " bottom bottom ",
+      //   end: "top center",
+      scrub: 0.5,
+    },
+  })
+  .to(".family-paint-bulle-1", {
+    opacity: 1,
+    x: "15%",
+  })
+  .to(
+    ".family-paint-bulle-1",
+    {
+      opacity: 0,
+    },
+    "+=0.5"
+  );
 
-gsap.to(".family-paint-bulle-2", {
-  opacity: 1,
-  x: "-15%",
-  scrollTrigger: {
-    trigger: ".family-paint-bulle-2",
-    start: " bottom center",
-    end: "bottom bottom ",
-    scrub: 0.5,
-    markers: true,
-  },
-});
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".family-paint-bulle-2",
+      start: " bottom bottom ",
+      //   end: "top center",
+      scrub: 0.5,
+    },
+  })
+  .to(".family-paint-bulle-2", {
+    opacity: 1,
+    x: "-15%",
+  })
+  .to(
+    ".family-paint-bulle-2",
+    {
+      opacity: 0,
+    },
+    "+=0.5"
+  );
 
 //bed-room
 
-gsap.to(".bed-room-bulle-1", {
-  opacity: 1,
-  scrollTrigger: {
-    trigger: ".bed-room-bulle-1",
-    start: " bottom bottom ",
-    end: "center center",
-    scrub: 0.5,
-  },
-});
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".bed-room-bulle-1",
+      start: " bottom bottom ",
+      //   end: "top center",
+      scrub: 0.5,
+    },
+  })
+  .to(".bed-room-bulle-1", {
+    opacity: 1,
+  })
+  .to(
+    ".bed-room-bulle-1",
+    {
+      opacity: 0,
+    },
+    "+=0.5"
+  );
 
-gsap.to(".bed-room-bulle-2", {
-  opacity: 1,
-  scrollTrigger: {
-    trigger: ".bed-room-bulle-2",
-    start: " center center ",
-    end: "top top",
-    scrub: 0.5,
-  },
-});
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".bed-room-bulle-2",
+      start: " center center ",
+      //   end: "top center",
+      scrub: 0.5,
+    },
+  })
+  .to(".bed-room-bulle-2", {
+    opacity: 1,
+  })
+  .to(
+    ".bed-room-bulle-2",
+    {
+      opacity: 1,
+    },
+    "+=0.5"
+  );
 
-//escape
+// //escape
 
 gsap.to(".escape-bulle-1", {
   opacity: 1,
@@ -97,8 +138,18 @@ gsap.to(".escape-bulle-2", {
     markers: true,
   },
 });
+// //alone bulle
+gsap.to(".alone-bulle-1", {
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".alone-bulle-1",
+    start: " bottom bottom ",
+    end: "center center",
+    scrub: 0.5,
+  },
+});
 
-//maxine
+// //maxine
 
 gsap.to(".maxine-bulle-1", {
   opacity: 1,
