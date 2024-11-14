@@ -1,3 +1,31 @@
+.escape {
+  position: relative;
+  margin-bottom: 10%;
+}
+
+.escape-bulle-1 {
+  width: 253px;
+  height: 238px;
+  position: absolute;
+  left: 12%;
+  bottom: 80%;
+}
+
+.escape-principal {
+  width: 922px;
+  height: 904px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 24.4px 19px #0c0c0c;
+}
+
+.escape-bulle-2 {
+  width: 252px;
+  height: 180px;
+  position: absolute;
+  right: 8%;
+  bottom: -5%;
+}
+
 // .escape {
 //   position: relative;
 // }
