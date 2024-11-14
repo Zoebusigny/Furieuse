@@ -15,16 +15,13 @@
 .family-paint-bulle-2 {
   width: 385px;
   height: 238px;
-
+  flex-shrink: 0;
   position: relative;
-  bottom: 150px;
-  right: -1170px;
-  opacity: 100;
+  bottom: 10vw;
+  right: -73%;
+  opacity: 0;
 }
 
 .family-paint-principal {
   margin: 0 auto;
-  // width: 1259px;
-  width: 50%;
-  // height: 851px;
 }

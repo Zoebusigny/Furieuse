@@ -3,9 +3,9 @@ footer {
 }
 
 .footer-img {
-  width: 395px;
-  height: 497px;
+  width: 295px;
+  height: 397px;
   flex-shrink: 0;
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: flex-start;
 }
