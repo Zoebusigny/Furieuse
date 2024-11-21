@@ -1,13 +1,41 @@
 .button-header {
-  overflow: hidden;
   width: 137px;
   color: #fff;
   font-family: "Enchanted Land";
   font-size: 32px;
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  padding: 5px 0;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bold;
   border: none;
-  border-radius: 10px;
-  padding: 5px 10px;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
   background: #b00042;
+  box-shadow: inset 0px 0px 3px;
+  &:before {
+    content: "";
+    display: flex;
+    transform: translateY(50%);
+    left: 0;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    z-index: -1;
+    transition: transform ease 1s;
+  }
+  &:hover {
+    &:before {
+      transform: translateY(-50%);
+      background-color: black;
+      transition-delay: 0.1s;
+      color: #b00042;
+      width: 150px;
+    }
+  }
 }
 
 .button-footer-1 {

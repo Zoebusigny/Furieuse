@@ -1,40 +1,55 @@
-// .aventure {
-// }
+.aventure {
+  position: relative;
+}
 
-// .aventure-1 {
-//   width: 747px;
-//   height: 733px;
-//   position: relative;
-//   top: 70px;
-//   left: 260px;
-// }
+.aventure-box {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  z-index: 2;
+  margin: 0 -4%;
+}
 
-// .aventure-2 {
-//   width: 738px;
-//   height: 726px;
-//   position: relative;
-//   right: -950px;
-// }
+.aventure-1 {
+  width: 747px;
+  height: 733px;
+  position: absolute;
+  top: -37%;
+  z-index: 1;
+  opacity: 0;
+}
 
-// .aventure-3 {
-//   width: 731px;
-//   height: 718px;
-//   position: relative;
-//   top: 70px;
-//   left: 260px;
-// }
+.aventure-2 {
+  width: 738px;
+  height: 726px;
+  align-self: flex-end;
+  position: absolute;
+  top: -7%;
+  opacity: 0;
+}
 
-// .aventure-4 {
-//   margin: 0 auto;
-//   width: 100%;
-//   margin-top: 160px;
-// }
+.aventure-3 {
+  width: 731px;
+  height: 718px;
+  position: absolute;
+  top: 24%;
+  opacity: 0;
+}
 
-// .aventure-bulle {
-//   width: 349px;
-//   height: 169px;
-//   position: relative;
-//   bottom: 505px;
-//   left: 345px;
-//   opacity: 100;
-// }
+.aventure-4 {
+  width: 100vw;
+  height: 654px;
+  // box-shadow: 60px 0px 130px 0px #b00042;
+  background: linear-gradient(to top, #b00042, transparent);
+
+  margin-top: 1360px;
+}
+
+.aventure-bulle {
+  width: 349px;
+  height: 169px;
+  position: absolute;
+  top: 80%;
+  left: 19%;
+  opacity: 0;
+}

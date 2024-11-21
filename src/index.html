@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <nav>
+      <div class="nav">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -29,44 +29,24 @@
               </div>
             </div>
             <div class="col-2">
-              <button class="button-header">Acheter</button>
+              <button class="button-header">
+                <a href="https://www.dargaud.com/">Acheter</a>
+              </button>
             </div>
           </div>
         </div>
-      </nav>
+      </div>
 
-      <!-- <div class="parallax-header">
-        <img src="img/parallax-bg.png" alt="fond du parallax" />
-      </div> -->
-      <!-- <div id="parallax-header">
-        <img
-          src="img/parallax-bg.png?as=webp"
-          data-depth="0.10"
-          alt="parallax-fond"
-        />
-        <img
-          src="img/parallax-ground.png?as=webp"
-          data-depth="0.20"
-          alt="parallax-sol"
-        />
-        <img
-          src="img/parallax-rock.png?as=webp"
-          data-depth="0.20"
-          alt="parallax-pierre"
-        />
-        <img
-          src="img/parallax-logo.png?as=webp"
-          data-depth="0.50"
-          alt="parallax-logo"
-        />
-        <img
-          src="img/parallax-ysa.png?as=webp"
-          data-depth="0.90"
-          alt="parallax-ysa"
-        />
-      </div> -->
+      <div class="parallax">
+        <div class="parallax-bg" data-depth="0.10"></div>
+        <div class="parallax-layer-1" data-depth="0.20"></div>
+        <div class="parallax-layer-2" data-depth="0.50"></div>
+        <div class="parallax-layer-3" data-depth="0.80"></div>
+        <div class="parallax-layer-4" data-depth="1"></div>
+      </div>
     </header>
     <main>
+      <div id="personnage"></div>
       <section id="horizontal">
         <div class="section"></div>
         <div class="section"></div>
@@ -74,7 +54,7 @@
         <div class="section"></div>
       </section>
 
-      <div class="histoire">
+      <div class="histoire" id="histoire">
         <div class="family-paint">
           <img
             class="family-paint-bulle-1"
@@ -126,12 +106,14 @@
             alt="bulle 2 escape"
           />
         </div>
-
         <div class="alone-bulle">
-          <img class="alone-bulle-1" src="img/alone-bubble-01.png" alt="" />
-          <img class="alone-bulle-2" src="img/alone-bubble-02.png" alt="" />
+          <div class="alone-bulle-1">
+            <img src="img/alone-bubble-01.png" alt="" />
+          </div>
+          <div class="alone-bulle-2">
+            <img src="img/alone-bubble-02.png" alt="" />
+          </div>
         </div>
-
         <div class="maxine">
           <img
             class="maxine-bulle-1"
@@ -156,22 +138,30 @@
           />
         </div>
         <div class="aventure">
-          <img
-            class="aventure-1"
-            src="img/ysa-landscape.png"
-            alt="ysa dans les plaines"
-          />
-          <img
-            class="aventure-2"
-            src="img/baron-pursuit.png"
-            alt="le baron la poursuit"
-          />
-          <img class="aventure-3" src="img/angry-villager.png" alt="ysa fuit" />
-          <img
-            class="aventure-4"
-            src="img/night-star.png"
-            alt="nuit etoilées"
-          />
+          <div class="aventure-box">
+            <img
+              class="aventure-3"
+              src="img/angry-villager.png"
+              alt="ysa fuit"
+            />
+            <img
+              class="aventure-2"
+              src="img/baron-pursuit.png"
+              alt="le baron la poursuit"
+            />
+            <img
+              class="aventure-1"
+              src="img/ysa-landscape.png"
+              alt="ysa dans les plaines"
+            />
+          </div>
+          <div class="blur">
+            <img
+              class="aventure-4"
+              src="img/night-star.png"
+              alt="nuit etoilées"
+            />
+          </div>
           <img
             class="aventure-bulle"
             src="img/night-star-bubble.png"

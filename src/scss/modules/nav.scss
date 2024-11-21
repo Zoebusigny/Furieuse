@@ -7,12 +7,23 @@
   font-size: 20px;
   color: #fff;
   text-align: center;
+  gap: 305px;
+  display: flex;
+  text-align: center;
 }
 
-nav {
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.3) 60.5%
-  );
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav .container {
+  padding-top: 30px;
+  margin: auto;
+  z-index: 2;
+  text-align: center;
+  max-width: auto;
+  position: fixed;
+  height: 200px;
+  background: linear-gradient(to bottom, black, transparent);
 }

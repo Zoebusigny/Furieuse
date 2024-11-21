@@ -1,12 +1,13 @@
 .maxine {
   position: relative;
+  margin-top: 0%;
   margin-bottom: 50%;
 }
 
 .maxine-principal {
   width: 1067px;
   height: 1467px;
-  margin: 25% auto;
+  margin: 0 auto 400px;
 }
 
 .maxine-bulle-1 {
@@ -15,6 +16,7 @@
   position: absolute;
   top: 18%;
   left: 5%;
+  opacity: 0;
 }
 
 .maxine-bulle-2 {
@@ -22,12 +24,13 @@
   height: 399px;
   position: absolute;
   left: 25%;
-  top: 38%;
+  top: 36%;
+  opacity: 0;
 }
 
 .maxine-sketch {
-  width: 1440px;
-  height: 1735px;
+  width: 100vw;
+  margin: 0 auto;
 }
 
 // .maxine-bulle-1 {

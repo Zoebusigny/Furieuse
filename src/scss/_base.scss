@@ -23,18 +23,6 @@ video {
   display: block;
 }
 
-.row + .row {
-  margin-top: 16px;
-}
-
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
-
 .furieuse-footer {
   color: #fff;
   font-family: "Enchanted Land";
@@ -57,11 +45,14 @@ video {
   display: flex;
   flex-wrap: wrap;
 }
-
-header {
-  background-image: url(../img/parallax-bg.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: calc(calc(1606 * 100vw) / 1376);
+header .nav-bg {
+  border: 2px solid blue;
 }
+
+// header {
+//   background-image: url(../img/parallax-bg.png);
+//   background-size: 100%;
+//   background-repeat: none;
+//   width: 100%;
+//   height: calc(calc(1606 * 100vw) / 1376);
+// }
