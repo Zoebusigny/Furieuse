@@ -17,21 +17,6 @@ gsap.to(contents, {
   },
 });
 
-//Parallax
-const tl = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".parallax",
-    start: "top top",
-    end: "bottom top",
-    scrub: true,
-  },
-});
-
-gsap.utils.toArray(".parallax").forEach((layer) => {
-  const depth = layer.dataset.depth;
-  const movement = -(layer.offsetHeight * depth);
-  tl.to(layer, { y: movement, ease: "none" }, 0);
-});
 //family-paint
 
 gsap
