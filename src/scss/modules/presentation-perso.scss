@@ -1,5 +1,6 @@
 .section {
   max-width: auto;
+  z-index: 2;
 }
 
 #horizontal .section {
@@ -12,7 +13,6 @@
 
 #horizontal {
   display: flex;
-
   overflow-x: hidden;
 }
 
