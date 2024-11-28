@@ -1,20 +1,19 @@
-// .alone-bulle {
-//   position: relative;
-// }
+.alone-bulle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: -10%;
+}
 
-// .alone-bulle-1 {
-//   width: 650px;
-//   height: 266px;
-//   position: absolute;
-//   top: 30%;
-//   left: 33%;
-// }
+.alone-bulle-1 img {
+  width: 650px;
+  height: 266px;
+  margin-bottom: 10%;
+  opacity: 0;
+}
 
-// .alone-bulle-2 {
-//   width: 340px;
-//   height: 276px;
-//   position: absolute;
-//   top: 20vw;
-//   left: 40%;
-// }
-// //
+.alone-bulle-2 img {
+  width: 340px;
+  height: 276px;
+  opacity: 0;
+}
